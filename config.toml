@@ -1,0 +1,13 @@
+# Site settings
+baseurl = "https://yuyulei.github.io"
+languageCode = "en"
+title = "YuYulei Blogs Site"
+
+theme = "jeffprod"
+
+[permalinks]
+    post = "/:year/:filename"
+
+[taxonomies]    
+    tag = "tags"
+    archive = "archives"
